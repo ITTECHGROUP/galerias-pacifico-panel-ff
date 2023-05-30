@@ -1,0 +1,142 @@
+{
+  "project_info": {
+    "project_number": "240997306321",
+    "project_id": "pacificoapp-35689",
+    "storage_bucket": "pacificoapp-35689.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:240997306321:android:08e25036a2bf9886a75af0",
+        "android_client_info": {
+          "package_name": "com.galeriaspacifico.pacificoflutter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "240997306321-fschphl4h9m143rhfm6ievb9n4bht321.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.galeriaspacifico.pacificoflutter",
+            "certificate_hash": "9bbb3186b2189ef16d8f272bdab59362c395cbb4"
+          }
+        },
+        {
+          "client_id": "240997306321-nslej09gjc5f4q1gd1fh72tbh13qh6b8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBt9qQJ-vbN3nQ0JsoRKz6_-sYtgXbdvhQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "240997306321-nslej09gjc5f4q1gd1fh72tbh13qh6b8.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "240997306321-2ga8cgi09k2s12uc9r0pqutufssph806.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.galeriaspacifico.pacificoflutter"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:240997306321:android:b5c03ec937fadf34a75af0",
+        "android_client_info": {
+          "package_name": "com.mycompany.pacificonew"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "240997306321-sc8mk2pkqdh2ao86em41gq2uprndp0ai.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mycompany.pacificonew",
+            "certificate_hash": "9bbb3186b2189ef16d8f272bdab59362c395cbb4"
+          }
+        },
+        {
+          "client_id": "240997306321-nslej09gjc5f4q1gd1fh72tbh13qh6b8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBt9qQJ-vbN3nQ0JsoRKz6_-sYtgXbdvhQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "240997306321-nslej09gjc5f4q1gd1fh72tbh13qh6b8.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "240997306321-2ga8cgi09k2s12uc9r0pqutufssph806.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.galeriaspacifico.pacificoflutter"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:240997306321:android:8754a5182aef30baa75af0",
+        "android_client_info": {
+          "package_name": "com.pacifico.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "240997306321-s67j7qdbom0gvpp9mnruqlbv75hgo0j1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.pacifico.app",
+            "certificate_hash": "9bbb3186b2189ef16d8f272bdab59362c395cbb4"
+          }
+        },
+        {
+          "client_id": "240997306321-nslej09gjc5f4q1gd1fh72tbh13qh6b8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBt9qQJ-vbN3nQ0JsoRKz6_-sYtgXbdvhQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "240997306321-nslej09gjc5f4q1gd1fh72tbh13qh6b8.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "240997306321-2ga8cgi09k2s12uc9r0pqutufssph806.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.galeriaspacifico.pacificoflutter"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

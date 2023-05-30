@@ -1,4 +1,4 @@
-# GaleriasPacifico
+# Pacifico
 
 A new Flutter project.
 

@@ -1,32 +1,3 @@
 {
-  "indexes": [
-    {
-      "collectionGroup": "Regalos_App",
-      "queryScope": "COLLECTION",
-      "fields": [
-        {
-          "fieldPath": "Estado",
-          "order": "ASCENDING"
-        },
-        {
-          "fieldPath": "Puntos",
-          "order": "ASCENDING"
-        }
-      ]
-    },
-    {
-      "collectionGroup": "Regalos_App",
-      "queryScope": "COLLECTION",
-      "fields": [
-        {
-          "fieldPath": "Estado",
-          "order": "ASCENDING"
-        },
-        {
-          "fieldPath": "Puntos",
-          "order": "DESCENDING"
-        }
-      ]
-    }
-  ]
+  "indexes": []
 }

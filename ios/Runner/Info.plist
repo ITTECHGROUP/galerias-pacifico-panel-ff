@@ -5,7 +5,7 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleDisplayName</key>
-	<string>GaleriasPacifico</string>
+	<string>Pacifico</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -13,7 +13,7 @@
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
-	<string>GaleriasPacifico</string>
+	<string>Pacifico</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 
@@ -28,7 +28,7 @@
             <string>Editor</string>
             <key>CFBundleURLSchemes</key>
             <array>
-                <string>com.googleusercontent.apps.240997306321-2ga8cgi09k2s12uc9r0pqutufssph806</string>
+                <string>com.googleusercontent.apps.240997306321-fhv9ujn9v7m50enqko0g7g5ng67gr3kj</string>
                 
             </array>
         </dict>
@@ -37,10 +37,10 @@
         <key>CFBundleTypeRole</key>
         <string>Editor</string>
         <key>CFBundleURLName</key>
-        <string>galeriaspacifico.com</string>
+        <string>pacifico.com</string>
         <key>CFBundleURLSchemes</key>
         <array>
-        <string>galeriaspacifico</string>
+        <string>pacifico</string>
         </array>
         </dict>
     </array>
@@ -54,15 +54,10 @@
 	<true/>
 
 	<key>NSCameraUsageDescription</key>
-    <string>Galerias App solicita permisos de camara</string>
+    <string>In order to take a picture or video, this app requires permission to access the camera.</string>
 	<key>NSPhotoLibraryUsageDescription</key>
-    <string>Galerias App solicita permisos para acceder a su galeria</string>
-	<key>NSCalendarsUsageDescription</key>
-    <string>Galerias App solicita permisos de calendario</string>
-	<key>NSLocationWhenInUseUsageDescription</key>
-    <string>Galerias App solicita permisos para conocer su ubicacion</string>
-	<key>PermissionGroupNotification</key>
-    <string>Galerias App solicita permisos para enviar notificaciones</string>
+    <string>In order to upload data, this app requires permission to access the photo library.</string>
+
 
 
 	<key>UILaunchStoryboardName</key>

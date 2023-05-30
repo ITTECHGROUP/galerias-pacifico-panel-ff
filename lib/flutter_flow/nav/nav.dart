@@ -80,95 +80,9 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
               : OnboardingAppWidget(),
         ),
         FFRoute(
-          name: 'Register_1',
-          path: '/register1',
-          builder: (context, params) => Register1Widget(),
-        ),
-        FFRoute(
-          name: 'Register_2',
-          path: '/register2',
-          builder: (context, params) => Register2Widget(),
-        ),
-        FFRoute(
-          name: 'Onboarding_App',
-          path: '/onboardingApp',
-          builder: (context, params) => OnboardingAppWidget(),
-        ),
-        FFRoute(
-          name: 'Login_App',
-          path: '/loginApp',
-          builder: (context, params) => LoginAppWidget(),
-        ),
-        FFRoute(
-          name: 'Home_App',
-          path: '/homeApp',
-          builder: (context, params) => HomeAppWidget(),
-        ),
-        FFRoute(
-          name: 'MisPremios',
-          path: '/misPremios',
-          builder: (context, params) => MisPremiosWidget(),
-        ),
-        FFRoute(
-          name: 'NocheDeHotelYaoYao',
-          path: '/nocheDeHotelYaoYao',
-          builder: (context, params) => NocheDeHotelYaoYaoWidget(),
-        ),
-        FFRoute(
-          name: 'OrdenDeCompraRochas',
-          path: '/ordenDeCompraRochas',
-          builder: (context, params) => OrdenDeCompraRochasWidget(
-            image: params.getParam('image', ParamType.String),
-            titulo: params.getParam('titulo', ParamType.String),
-            descripcion: params.getParam('descripcion', ParamType.String),
-            puntos: params.getParam('puntos', ParamType.int),
-            local: params.getParam('local', ParamType.String),
-          ),
-        ),
-        FFRoute(
-          name: 'MisPremiosOrdenar',
-          path: '/misPremiosOrdenar',
-          builder: (context, params) => MisPremiosOrdenarWidget(),
-        ),
-        FFRoute(
-          name: 'Formulario',
-          path: '/formulario',
-          builder: (context, params) => FormularioWidget(
-            fotoFactura: params.getParam('fotoFactura', ParamType.String),
-          ),
-        ),
-        FFRoute(
-          name: 'AjustesApp',
-          path: '/ajustesApp',
-          builder: (context, params) => AjustesAppWidget(),
-        ),
-        FFRoute(
-          name: 'CargaTusPuntosTicketCargado',
-          path: '/cargaTusPuntosTicketCargado',
-          builder: (context, params) => CargaTusPuntosTicketCargadoWidget(
-            fotoFactura: params.getParam('fotoFactura', ParamType.String),
-            puntos: params.getParam('puntos', ParamType.int),
-          ),
-        ),
-        FFRoute(
-          name: 'BeneficiosExclusivos',
-          path: '/beneficiosExclusivos',
-          builder: (context, params) => BeneficiosExclusivosWidget(),
-        ),
-        FFRoute(
-          name: 'TyCScreen',
-          path: '/tyCScreen',
-          builder: (context, params) => TyCScreenWidget(),
-        ),
-        FFRoute(
-          name: 'password',
-          path: '/password',
-          builder: (context, params) => PasswordWidget(),
-        ),
-        FFRoute(
-          name: 'ForgotPassword',
-          path: '/forgotPassword',
-          builder: (context, params) => ForgotPasswordWidget(),
+          name: 'Register',
+          path: '/register',
+          builder: (context, params) => RegisterWidget(),
         ),
         FFRoute(
           name: 'Ajustes',
@@ -176,44 +90,9 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
           builder: (context, params) => AjustesWidget(),
         ),
         FFRoute(
-          name: 'sidabar',
-          path: '/sidabar',
-          builder: (context, params) => SidabarWidget(),
-        ),
-        FFRoute(
-          name: 'ClientesEditar',
-          path: '/clientesEditar',
-          builder: (context, params) => ClientesEditarWidget(),
-        ),
-        FFRoute(
-          name: 'AdministrarCategorias',
-          path: '/administrarCategorias',
-          builder: (context, params) => AdministrarCategoriasWidget(),
-        ),
-        FFRoute(
-          name: 'AltaDeCliente',
-          path: '/altaDeCliente',
-          builder: (context, params) => AltaDeClienteWidget(
-            nombre: params.getParam('nombre', ParamType.String),
-            apellido: params.getParam('apellido', ParamType.String),
-            dni: params.getParam('dni', ParamType.int),
-            fechadenacimiento:
-                params.getParam('fechadenacimiento', ParamType.DateTime),
-            mail: params.getParam('mail', ParamType.String),
-            puntos: params.getParam('puntos', ParamType.int),
-            dniFront: params.getParam('dniFront', ParamType.String),
-            dniBack: params.getParam('dniBack', ParamType.String),
-          ),
-        ),
-        FFRoute(
-          name: 'AnadirFactura',
-          path: '/anadirFactura',
-          builder: (context, params) => AnadirFacturaWidget(),
-        ),
-        FFRoute(
-          name: 'BaseDeDatos',
-          path: '/baseDeDatos',
-          builder: (context, params) => BaseDeDatosWidget(),
+          name: 'Clientes',
+          path: '/clientes',
+          builder: (context, params) => ClientesWidget(),
         ),
         FFRoute(
           name: 'CrearNuevoCliente',
@@ -221,89 +100,19 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
           builder: (context, params) => CrearNuevoClienteWidget(),
         ),
         FFRoute(
-          name: 'CrearNuevoUsuario',
-          path: '/crearNuevoUsuario',
-          builder: (context, params) => CrearNuevoUsuarioWidget(),
+          name: 'AltaDeCliente',
+          path: '/altaDeCliente',
+          builder: (context, params) => AltaDeClienteWidget(),
         ),
         FFRoute(
           name: 'InfoClienteYHistorial',
           path: '/infoClienteYHistorial',
-          builder: (context, params) => InfoClienteYHistorialWidget(
-            nombre: params.getParam('nombre', ParamType.String),
-            apellido: params.getParam('apellido', ParamType.String),
-            dni: params.getParam('dni', ParamType.int),
-            fechadenacimiento:
-                params.getParam('fechadenacimiento', ParamType.DateTime),
-            mail: params.getParam('mail', ParamType.String),
-            puntos: params.getParam('puntos', ParamType.int),
-            dniFront: params.getParam('dniFront', ParamType.String),
-            dniBack: params.getParam('dniBack', ParamType.String),
-          ),
+          builder: (context, params) => InfoClienteYHistorialWidget(),
         ),
         FFRoute(
-          name: 'ListadoPremios',
-          path: '/listadoPremios',
-          builder: (context, params) => ListadoPremiosWidget(),
-        ),
-        FFRoute(
-          name: 'Locales',
-          path: '/locales',
-          builder: (context, params) => LocalesWidget(),
-        ),
-        FFRoute(
-          name: 'Login',
-          path: '/login',
-          builder: (context, params) => LoginWidget(),
-        ),
-        FFRoute(
-          name: 'Notificaciones',
-          path: '/notificaciones',
-          builder: (context, params) => NotificacionesWidget(),
-        ),
-        FFRoute(
-          name: 'Notificaciones2',
-          path: '/notificaciones2',
-          builder: (context, params) => Notificaciones2Widget(),
-        ),
-        FFRoute(
-          name: 'NuevaNotificacion',
-          path: '/nuevaNotificacion',
-          builder: (context, params) => NuevaNotificacionWidget(),
-        ),
-        FFRoute(
-          name: 'NuevoBeneficio',
-          path: '/nuevoBeneficio',
-          builder: (context, params) => NuevoBeneficioWidget(),
-        ),
-        FFRoute(
-          name: 'NuevoLocal',
-          path: '/nuevoLocal',
-          builder: (context, params) => NuevoLocalWidget(),
-        ),
-        FFRoute(
-          name: 'NuevoPremio',
-          path: '/nuevoPremio',
-          builder: (context, params) => NuevoPremioWidget(),
-        ),
-        FFRoute(
-          name: 'PremioRedimidoHotel',
-          path: '/premioRedimidoHotel',
-          builder: (context, params) => PremioRedimidoHotelWidget(),
-        ),
-        FFRoute(
-          name: 'PremioRedimidoPerfume',
-          path: '/premioRedimidoPerfume',
-          builder: (context, params) => PremioRedimidoPerfumeWidget(),
-        ),
-        FFRoute(
-          name: 'RedimirPremio',
-          path: '/redimirPremio',
-          builder: (context, params) => RedimirPremioWidget(),
-        ),
-        FFRoute(
-          name: 'Register',
-          path: '/register',
-          builder: (context, params) => RegisterWidget(),
+          name: 'AnadirFactura',
+          path: '/anadirFactura',
+          builder: (context, params) => AnadirFacturaWidget(),
         ),
         FFRoute(
           name: 'Restablecer',
@@ -311,14 +120,69 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
           builder: (context, params) => RestablecerWidget(),
         ),
         FFRoute(
-          name: 'TodasLasCategorias',
-          path: '/todasLasCategorias',
-          builder: (context, params) => TodasLasCategoriasWidget(),
+          name: 'HabilitarMigracionCliente',
+          path: '/habilitarMigracionCliente',
+          builder: (context, params) => HabilitarMigracionClienteWidget(),
         ),
         FFRoute(
           name: 'Usuarios',
           path: '/usuarios',
           builder: (context, params) => UsuariosWidget(),
+        ),
+        FFRoute(
+          name: 'CrearNuevoUsuario',
+          path: '/crearNuevoUsuario',
+          builder: (context, params) => CrearNuevoUsuarioWidget(),
+        ),
+        FFRoute(
+          name: 'ListadoPremios',
+          path: '/listadoPremios',
+          builder: (context, params) => ListadoPremiosWidget(),
+        ),
+        FFRoute(
+          name: 'NuevoPremio',
+          path: '/nuevoPremio',
+          builder: (context, params) => NuevoPremioWidget(),
+        ),
+        FFRoute(
+          name: 'NuevoBeneficio',
+          path: '/nuevoBeneficio',
+          builder: (context, params) => NuevoBeneficioWidget(),
+        ),
+        FFRoute(
+          name: 'Notificaciones',
+          path: '/notificaciones',
+          builder: (context, params) => NotificacionesWidget(),
+        ),
+        FFRoute(
+          name: 'NuevaNotificacion',
+          path: '/nuevaNotificacion',
+          builder: (context, params) => NuevaNotificacionWidget(),
+        ),
+        FFRoute(
+          name: 'NuevoLocal',
+          path: '/nuevoLocal',
+          builder: (context, params) => NuevoLocalWidget(),
+        ),
+        FFRoute(
+          name: 'RedimirPremio',
+          path: '/redimirPremio',
+          builder: (context, params) => RedimirPremioWidget(),
+        ),
+        FFRoute(
+          name: 'PremioRedimidoPerfume',
+          path: '/premioRedimidoPerfume',
+          builder: (context, params) => PremioRedimidoPerfumeWidget(),
+        ),
+        FFRoute(
+          name: 'PremioRedimidoHotel',
+          path: '/premioRedimidoHotel',
+          builder: (context, params) => PremioRedimidoHotelWidget(),
+        ),
+        FFRoute(
+          name: 'Notificaciones2',
+          path: '/notificaciones2',
+          builder: (context, params) => Notificaciones2Widget(),
         ),
         FFRoute(
           name: 'ValidarFacturas',
@@ -336,34 +200,29 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
           builder: (context, params) => ValidarFacturas3Widget(),
         ),
         FFRoute(
-          name: 'HabilitarMigracionCliente',
-          path: '/habilitarMigracionCliente',
-          builder: (context, params) => HabilitarMigracionClienteWidget(),
+          name: 'BaseDeDatos',
+          path: '/baseDeDatos',
+          builder: (context, params) => BaseDeDatosWidget(),
         ),
         FFRoute(
-          name: 'CargaTusPuntos1',
-          path: '/cargaTusPuntos1',
-          builder: (context, params) => CargaTusPuntos1Widget(),
+          name: 'AdministrarCategorias',
+          path: '/administrarCategorias',
+          builder: (context, params) => AdministrarCategoriasWidget(),
         ),
         FFRoute(
-          name: 'CargaTusPuntos2',
-          path: '/cargaTusPuntos2',
-          builder: (context, params) => CargaTusPuntos2Widget(),
+          name: 'Login',
+          path: '/login',
+          builder: (context, params) => LoginWidget(),
         ),
         FFRoute(
-          name: 'CargaTusPuntos3',
-          path: '/cargaTusPuntos3',
-          builder: (context, params) => CargaTusPuntos3Widget(),
+          name: 'Locales',
+          path: '/locales',
+          builder: (context, params) => LocalesWidget(),
         ),
         FFRoute(
-          name: 'sidebar21',
-          path: '/sidebar21',
-          builder: (context, params) => Sidebar21Widget(),
-        ),
-        FFRoute(
-          name: 'sidebar21Copy',
-          path: '/sidebar21Copy',
-          builder: (context, params) => Sidebar21CopyWidget(),
+          name: 'TodasLasCategorias',
+          path: '/todasLasCategorias',
+          builder: (context, params) => TodasLasCategoriasWidget(),
         ),
         FFRoute(
           name: 'MisPuntos',
@@ -371,43 +230,99 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
           builder: (context, params) => MisPuntosWidget(),
         ),
         FFRoute(
-          name: 'ObtenerFacturaPorFoto',
-          path: '/obtenerFacturaPorFoto',
-          builder: (context, params) => ObtenerFacturaPorFotoWidget(),
+          name: 'MisPremiosVoucher',
+          path: '/misPremiosVoucher',
+          builder: (context, params) => MisPremiosVoucherWidget(),
         ),
         FFRoute(
-          name: 'ResultadoFotoFactura',
-          path: '/resultadoFotoFactura',
-          builder: (context, params) => ResultadoFotoFacturaWidget(
-            codFactura: params.getParam('codFactura', ParamType.String),
-            localFactura: params.getParam('localFactura', ParamType.String),
-            nombreCliente: params.getParam('nombreCliente', ParamType.String),
-            fecha: params.getParam('fecha', ParamType.String),
-            totales: params.getParam<String>('totales', ParamType.String, true),
-          ),
+          name: 'BaseDeDatosCopy',
+          path: '/baseDeDatosCopy',
+          builder: (context, params) => BaseDeDatosCopyWidget(),
         ),
         FFRoute(
-          name: 'ClientesPendientes',
-          path: '/clientesPendientes',
-          builder: (context, params) => ClientesPendientesWidget(),
+          name: 'Register_1',
+          path: '/register1',
+          builder: (context, params) => Register1Widget(),
         ),
         FFRoute(
-          name: 'LocalesData',
-          path: '/localesData',
-          builder: (context, params) => LocalesDataWidget(
-            nombreLocal: params.getParam('nombreLocal', ParamType.String),
-            categoriaLocal: params.getParam('categoriaLocal', ParamType.String),
-            telefonoLocal: params.getParam('telefonoLocal', ParamType.int),
-            puntosdeventaLocal:
-                params.getParam('puntosdeventaLocal', ParamType.int),
-            logoLocal: params.getParam('logoLocal', ParamType.String),
-            estadoLocal: params.getParam('estadoLocal', ParamType.bool),
-          ),
+          name: 'OrdenDeCompraRochas',
+          path: '/ordenDeCompraRochas',
+          builder: (context, params) => OrdenDeCompraRochasWidget(),
         ),
         FFRoute(
-          name: 'CambiarContrasena',
-          path: '/cambiarContrasena',
-          builder: (context, params) => CambiarContrasenaWidget(),
+          name: 'AjustesApp',
+          path: '/ajustesApp',
+          builder: (context, params) => AjustesAppWidget(),
+        ),
+        FFRoute(
+          name: 'Home_App',
+          path: '/homeApp',
+          builder: (context, params) => HomeAppWidget(),
+        ),
+        FFRoute(
+          name: 'Password_App',
+          path: '/passwordApp',
+          builder: (context, params) => PasswordAppWidget(),
+        ),
+        FFRoute(
+          name: 'Onboarding_App',
+          path: '/onboardingApp',
+          builder: (context, params) => OnboardingAppWidget(),
+        ),
+        FFRoute(
+          name: 'ForgotPassword',
+          path: '/forgotPassword',
+          builder: (context, params) => ForgotPasswordWidget(),
+        ),
+        FFRoute(
+          name: 'MisPremios',
+          path: '/misPremios',
+          builder: (context, params) => MisPremiosWidget(),
+        ),
+        FFRoute(
+          name: 'NocheDeHotelYaoYao',
+          path: '/nocheDeHotelYaoYao',
+          builder: (context, params) => NocheDeHotelYaoYaoWidget(),
+        ),
+        FFRoute(
+          name: 'BeneficiosExclusivos',
+          path: '/beneficiosExclusivos',
+          builder: (context, params) => BeneficiosExclusivosWidget(),
+        ),
+        FFRoute(
+          name: 'Formulario',
+          path: '/formulario',
+          builder: (context, params) => FormularioWidget(),
+        ),
+        FFRoute(
+          name: 'MisPremiosOrdenar',
+          path: '/misPremiosOrdenar',
+          builder: (context, params) => MisPremiosOrdenarWidget(),
+        ),
+        FFRoute(
+          name: 'CargaTusPuntosTotal',
+          path: '/cargaTusPuntosTotal',
+          builder: (context, params) => CargaTusPuntosTotalWidget(),
+        ),
+        FFRoute(
+          name: 'TyCScreen',
+          path: '/tyCScreen',
+          builder: (context, params) => TyCScreenWidget(),
+        ),
+        FFRoute(
+          name: 'Register_2',
+          path: '/register2',
+          builder: (context, params) => Register2Widget(),
+        ),
+        FFRoute(
+          name: 'Login_App',
+          path: '/loginApp',
+          builder: (context, params) => LoginAppWidget(),
+        ),
+        FFRoute(
+          name: 'PopUpRegister',
+          path: '/popUpRegister',
+          builder: (context, params) => PopUpRegisterWidget(),
         )
       ].map((r) => r.toRoute(appStateNotifier)).toList(),
       urlPathStrategy: UrlPathStrategy.path,
@@ -590,13 +505,12 @@ class FFRoute {
                 )
               : builder(context, ffParams);
           final child = appStateNotifier.loading
-              ? Container(
-                  color: Colors.transparent,
-                  child: Center(
-                    child: Image.asset(
-                      'assets/images/gp_logo.png',
-                      width: MediaQuery.of(context).size.width * 0.5,
-                      fit: BoxFit.cover,
+              ? Center(
+                  child: SizedBox(
+                    width: 50.0,
+                    height: 50.0,
+                    child: CircularProgressIndicator(
+                      color: FlutterFlowTheme.of(context).primary,
                     ),
                   ),
                 )
